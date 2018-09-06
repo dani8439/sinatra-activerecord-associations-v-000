@@ -1,4 +1,4 @@
 class Cat < ActiveRecord::Base
-  # Child
+  # Child -- Foreign Key
   belongs_to :owner
 end
