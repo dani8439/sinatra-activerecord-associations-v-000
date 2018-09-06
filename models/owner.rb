@@ -1,4 +1,4 @@
 class Owner < ActiveRecord::Base
-  # Parent
+  # Parent -- Primary Key
   has_many :cats
 end
